@@ -1,4 +1,4 @@
-# pygifconvt
+# homomer_count
 
 ## Table of Contents
   * [Installation](#installation)
@@ -10,15 +10,13 @@
 Download using pip via pypi.
 
 ```bash
-$ pip install 'package' --upgrade
-  or
-$ pip install git+'repository'
+$ pip install homomer_count
 ```
 (Mac/homebrew users may need to use ``pip3``)
 
 ## Quick start
 ```
-$ /YOUR/ENVIRONMENTAL/PATH/homomer_count.py "input file (fastq or fasta)"
+$ homomer_count "input file (fastq or fasta)"
 // -b "consecutive base number"
 // -o "output file name"
 ```
