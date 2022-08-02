@@ -27,13 +27,13 @@ def main():
                 tmer = len(seq) - 4
                 for p in range(tmer):
                     subseq = seq[p:p+5]
-                    if subseq == 'AAAAA':
+                    if subseq == 'A' * int(args.basenum):
                         Anum = Anum + 1
-                    elif subseq == 'TTTTT':
+                    elif subseq == 'T' * int(args.basenum):
                         Tnum = Tnum + 1
-                    elif subseq == 'GGGGG':
+                    elif subseq == 'G' * int(args.basenum):
                         Gnum = Gnum + 1
-                    elif subseq == 'CCCCC':
+                    elif subseq == 'C' * int(args.basenum):
                         Cnum = Cnum + 1
                     else:
                         pass
@@ -56,13 +56,13 @@ def main():
                         tmer = len(line.rstrip()) - 4
                         for p in range(tmer):
                             subseq = line.rstrip()[p:p+5]
-                            if subseq == 'AAAAA':
+                            if subseq == 'A' * int(args.basenum):
                                 Anum = Anum + 1
-                            elif subseq == 'TTTTT':
+                            elif subseq == 'T' * int(args.basenum):
                                 Tnum = Tnum + 1
-                            elif subseq == 'GGGGG':
+                            elif subseq == 'G' * int(args.basenum):
                                 Gnum = Gnum + 1
-                            elif subseq == 'CCCCC':
+                            elif subseq == 'C' * int(args.basenum):
                                 Cnum = Cnum + 1
                             else:
                                 pass
